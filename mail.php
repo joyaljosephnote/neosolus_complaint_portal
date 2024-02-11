@@ -9,7 +9,7 @@ $message = $_POST['w3lMessage'];
 
 $mailheader = "Form:".$name."<".$senderEmail.">\r\n"
 
-$recipient = "contact@neosolus.com";
+$recipient = "neosolus2023@gmail.com";
 
 mail($recipient, $subject, $message, $mailheader)
 
