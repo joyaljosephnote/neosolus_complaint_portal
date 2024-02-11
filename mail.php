@@ -1,7 +1,7 @@
 <?php
 
 $name = $_POST['w3lName'];
-$subject = "Complaint Registration";
+// $subject = "Complaint Registration";
 $mobileNumber = $_POST['w3lMobileNumber'];
 $senderEmail = $_POST['w3lSender'];
 $assetId = $_POST['w3lassetId'];
@@ -11,7 +11,7 @@ $mailheader = "Form:".$name."<".$senderEmail.">\r\n"
 
 $recipient = "neosolus2023@gmail.com";
 
-mail($recipient, $subject, $message, $mailheader)
+mail($recipient, $mobileNumber, $message, $mailheader)
 
 or die("Error!");
 
