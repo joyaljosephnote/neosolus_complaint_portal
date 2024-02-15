@@ -5,7 +5,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
   $senderEmail = $_POST['w3lSender'];
   $assetId = $_POST['w3lassetId'];
   $message = $_POST['w3lMessage'];
-  $recipient = "neosolus2023@gmail.com";
+  $recipient = "accounts@neosolus.com";
   $mailheader = "From: $name";
   $combinedMessage = "Asset ID: $assetId\n\nSender Email: $senderEmail\n\nMessage: $message";
 
